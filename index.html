@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <!-- The head loads things for the page, though not on the page directly-->
+    <head>
+        <!-- This is the title of a webpage, appearing at the top of the webpage/tab-->
+        <title>HTML/CSS Cheatsheet</title>
+        <!-- This links the CSS page to this one-->
+        <link href="./styles.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>HTML/CSS Cheatsheet</h1>
+        <p id="intro_paragraph"> Coding in HTML and CSS is fun! Though it can be difficult to remember every element you've learned. In order to aid in that endeavor, creating a Cheatsheet for quick reference can really help out!</p>
+        <hr>
+        <h2>HTML</h2>
+        <p>HTML is the backbone of webpages. Though it is responsible for creating these pages, it is rather limited in what it can do:</p>
+        <hr>
+        <h3 id="lists">Lists</h3>
+        <p>Lists come in two varieties: Ordered Lists and Unordered Lists. Check out the Unordered List of anchor tags below!</p>
+        <ul>
+            <li><a href="#text">Text(Headers/Paragraphs)</a></li>
+            <li><a href="#hyperlinks">Hyperlinks</a></li>
+            <li><a href="#tables">Tables</a></li>
+            <li><a href="#media">Media</a></li>
+            <li><a href="#lists">Lists(Ordered/Unordered like this one!)</a></li>
+        </ul>
+        <hr>
+        <h3 id="text">Text</h3>
+        <p>Basic text is a big part of HTML. You can write paragraphs that stretch a long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long ways...</p>
+        <p>You can also change your text to provide <em>emphasis</em> or show <strong>strong</strong> text.</p>
+        <hr>
+        <h3 id="hyperlinks">Hyperlinks</h3>
+        <p>Similar to the various anchors to parts of the page shown in the list section, you can also use anchor tags to write hyperlinks like <a href="https://en.wikipedia.org/wiki/Hephaestus" target="_blank">this!</a></p>
+        <hr>
+        <h3 id="tables">Tables</h3>
+        <p>HTML can also create tables. With a little help from CSS, they can help us organize and style data we wish to represent.</p>
+        <table>
+            <thead>
+              <tr>
+                <th colspan="7">Schedule by The Cure</th>
+              </tr>
+              <div id="day_of_the_week">
+                <tr>
+                  <th>Monday</th>
+                  <th>Tuesday</th>
+                  <th>Wednesday</th>
+                  <th>Thursday</th>
+                  <th>Friday</th>
+                  <th>Saturday</th>
+                  <th>Sunday</th>
+                </tr>
+              </div>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Blue</td>
+                <td colspan="2">Grey</td>
+                <td>Don't care about you</td>
+                <td rowspan="6">I'm in Love</td>
+                <td rowspan="6">Can wait</td>
+                <td rowspan="6">Always comes too late</td>
+              </tr>
+              <tr>
+                <td>Can fall apart</td>
+                <td colspan="2">Break my heart</td>
+                <td>Don't even start</td>
+              </tr>
+              <tr>
+                <td>Is black</td>
+                <td colspan="2">Heart Attack</td>
+                <td>Never looking back</td>
+              </tr>
+              <tr>
+                  <td>You can hold your head</td>
+                  <td colspan="2">Stay in bed</td>
+                  <td>Watch the walls instead</td>
+              </tr>
+              <tr>
+                <td>Blue</td>
+                <td colspan="2">Grey</td>
+                <td>Don't care about you</td>
+            </tr>
+            <tr>
+              <td>Can fall apart</td>
+              <td colspan="2">Break my heart</td>
+              <td>Don't even start</td>
+            </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td class="tableFoot" colspan="7" >Schedule inspired by "Friday I'm in Love"  by The Cure</td>
+              </tr>
+            </tfoot>
+           </table>
+        <hr>
+        <h3 id="media">Media</h3>
+        <p>There are various kinds of media that can be shown:</p>
+        <ol>
+            <li>Pictures: <br>
+              <figure>
+                <img src="./Me2.jpg" alt="picture of website author">
+                <figcaption>The author of this webpage.</figcaption>
+              </figure></li>
+            <li>Videos: <br>
+              <figure>
+                <video src="./ohhello_smaller.mp4" controls> This video is not supported</video>
+                <figcaption>Strange who you can bump in to on the internet.</figcaption>
+              </figure></li>
+            <li>Audio: <br>
+              <figure>
+                <audio controls><source src="./IceFall.mp4" type="audio/mp4">Your browser does not support the audio element.</audio>
+                <figcaption>The sound of ice falling into a cup.</figcaption>
+              </figure></li>
+            <li>Audio: <br>
+              <figure>
+                <audio controls><source src="./audacityTest.mp3" type="audio/mp3">Your browser does not support the audio element.</audio>
+                <figcaption>A test using audacity</figcaption>
+              </figure></li>
+        </ol>
+        <hr>
+        <h2>CSS</h2>
+        <p>CSS is responsible for styling HTML elements. CSS can drastically improve the look of your webpage, but for example purposes, I'm going to keep this one simple.</p>
+        <hr>
+        <h3>Methods of including CSS</h3>
+        <p>There are three ways to include CSS in you web design:</p>
+        <ol>
+          <li>Writing CSS in a dedicated section of your HTML</li>
+          <li>Writing CSS inline in your HTML</li>
+          <li>Writing CSS in a dedicated file</li>
+        </ol>
+    </body>
+</html>
