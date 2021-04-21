@@ -1,11 +1,36 @@
 *{
     font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(3, 51, 51);
+    color: white;
+    font-size: large;
 }
+h1{
+    background-color: rgb(36, 70, 78);
+    text-align: center;
+    font-size: 60px;
+}
+
+h2{
+    background-color: rgb(62, 95, 104);
+    text-align: center;
+    font-size: 40px;
+}
+
+h3{
+    background-color: rgb(68, 112, 114);
+    text-align: center;
+    font-size: 30px;
+}
+table{
+    text-align: center;
+}
+
 th {
     border-width: 3px;
     border-style: solid;
     border-color:black;
 }
+
 td {
     border-style:dashed;
     border-width: 2px;
